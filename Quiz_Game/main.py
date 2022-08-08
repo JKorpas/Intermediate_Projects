@@ -7,7 +7,8 @@ for index, question in enumerate(question_data):
     index = Question(question["text"], question["answer"])
     question_bank.append(index)'''
 
-question_bank = [Question(question["text"], question["answer"]) for question in question_data]
+question_bank = [Question(question["category"], question["question"], question["correct_answer"])
+                 for question in question_data]
 quiz = QuizBrain(question_bank)
 while quiz.still_has_question():
     quiz.next_question()
