@@ -17,6 +17,7 @@ screen.update()
 game = Snake()
 food = Food()
 score = Scoreboard()
+
 game_is_on = True
 
 screen.listen()
@@ -29,6 +30,7 @@ while game_is_on:
     screen.update()
     time.sleep(0.1)
     game.move()
+    
     # Collision with fodd
     if game.head.distance(food) <= 10:
         food.refresh()
