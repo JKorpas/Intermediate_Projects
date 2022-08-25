@@ -129,6 +129,10 @@ dmypy.json
 .pyre/
 
 # My Files
+#Snake
 HighScore.txt
+#Strong Password Generator
 strong_password.txt
 password_generator.json
+#Flashy Cards
+Words_to_learn.csv
