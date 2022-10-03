@@ -129,5 +129,18 @@ dmypy.json
 .pyre/
 
 # My Files
+random_stuff
+#Prive project to not trash repo
+Kanye_API
+Letter_Makro
+Nato_Alphabet
+Pomodoro_App
+Quiz_Game
+Turtle_Money_Generator
+Flash_Card
+
+#Snake
 HighScore.txt
+#Strong Password Generator
 strong_password.txt
+password_generator.json
