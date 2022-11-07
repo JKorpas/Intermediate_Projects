@@ -2,7 +2,7 @@ MIN_BET = 1
 MAX_BET = 100
 
 
-class Bookie:
+class Bet:
     def __init__(self, bet) -> None:
         self._bet = bet
 
